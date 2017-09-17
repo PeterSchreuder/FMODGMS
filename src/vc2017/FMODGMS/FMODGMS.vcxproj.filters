@@ -16,11 +16,9 @@
     <Filter Include="Header Files\fmod_studio_api">
       <UniqueIdentifier>{99d0510f-bcf3-42c5-9ddb-c3fa5c78e04a}</UniqueIdentifier>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <Filter Include="Library Files">
+      <UniqueIdentifier>{3d128dcf-0a93-4485-8204-5e468c000731}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="fmod_studio_api\fmod.h">
@@ -47,10 +45,18 @@
     <ClInclude Include="fmod_studio_api\fmod_output.h">
       <Filter>Header Files\fmod_studio_api</Filter>
     </ClInclude>
+    <ClInclude Include="fmodgms.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="fmodgms.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Library Include="fmod_vc.lib">
-      <Filter>Source Files</Filter>
+      <Filter>Library Files</Filter>
     </Library>
   </ItemGroup>
 </Project>
